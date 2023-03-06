@@ -36,5 +36,5 @@ class Matematica{
     }
 }
 $classe = new Basico2();
-$mat = new Matematica($classe);
+$mat = new \cursophp7web\orientacaoobjetos\psr\classes\classe1\Matematica($classe);
 echo $mat->somar(5,15);
